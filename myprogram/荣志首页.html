@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no"/>
+  <title>首页</title>
+<link type="text/css" href="layui/css/layui.css" rel="stylesheet"/>
+ <link type="text/css" href="css/my.css" rel="stylesheet"/>
+ <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+ <script type="text/javascript" src="layui/layui.js"></script>
+ <script type="text/javascript" src="js/adaptive.js" ></script>
+ 
+ <script type="text/javascript">
+ 	$(window).scroll(function(){
+    var top = $(this).scrollTop(); // 当前窗口的滚动距离
+    var h1 = $(".centent_3").offset().top;
+    
+    if(top>=h1){
+        $(".IndexTop_1").addClass("changeColor");
+    }
+    if(top<h1){
+   $(".IndexTop_1").removeClass("changeColor");
+    }
+     
+})
+		  window['adaptive'].desinWidth=720;
+			window['adaptive'].baseFont=18;
+			window['adaptive'].maxWidth=480;
+			window['adaptive'].init();
+ </script>
+</head>
+<body class="body1">
+  <div class="IndexTop">
+      <div class="IndexTop_1">
+      	 <span>荣成</span>
+      <input type="text" placeholder="搜索目的地/游记/攻略…">
+      <img src="images/index_1.png">
+      </div>
+      <div class="layui-carousel" id="test1">
+      <div carousel-item>
+         <div><img src="images/mdd_1.png"></div>
+         <div><img src="images/mdd_2.png"></div>
+         <div><img src="images/mdd_3.png"></div>
+         <div><img src="images/mdd_2.png"></div>
+         <div><img src="images/mdd_1.png"></div>
+       </div>
+     </div>
+  </div>
+  <!--首页滚动效果-->
+
+<script>
+layui.use('carousel', function(){
+  var carousel = layui.carousel;
+  //建造实例
+  carousel.render({
+    elem: '#test1'
+    ,width: '100%' //设置容器宽度
+	,height:'100%'
+    ,arrow: 'none' //始终显示箭头
+    //,anim: 'updown' //切换动画方式
+  });
+});
+</script>
+
+ <div class="centent">
+  <div class="centent_1">
+     <div  ><img src='images/food2.png'><span >游玩景点</span></div>
+     <div  ><img src="images/food2.png"><span >游玩景点</span></div>
+      <div  ><img src='images/food2.png'><span >游玩景点</span></div>
+     <div  ><img src="images/food2.png"><span >游玩景点</span></div>     
+  </div>
+  <div class="centent_1">
+     <div  ><img src='images/food2.png'><span >游玩景点</span></div>
+     <div  ><img src="images/food2.png"><span >游玩景点</span></div>
+      <div  ><img src='images/food2.png'><span >游玩景点</span></div>
+     <div  ><img src="images/food2.png"><span >游玩景点</span></div> 
+      
+  </div>
+
+  </div>
+  <div class="centent_2">
+     <div class="layui-carousel" id="test2">
+      <div carousel-item>
+         <div><img src="images/mdd_1.png"></div>
+         <div><img src="images/mdd_2.png"></div>
+         <div><img src="images/mdd_3.png"></div>
+         <div><img src="images/mdd_2.png"></div>
+         <div><img src="images/mdd_1.png"></div>
+       </div>
+     </div>
+<script>
+layui.use('carousel', function(){
+  var carousel = layui.carousel;
+  //建造实例
+  carousel.render({
+    elem: '#test2'
+    ,width: '100%' //设置容器宽度
+	,height:'100%'
+    ,arrow: 'none' //始终显示箭头
+    //,anim: 'updown' //切换动画方式
+  });
+});
+</script>
+  </div>
+<div class="centent_3">
+  <div class="centent_3_top">
+      <img  class="centent_3_img1" src="images/dian_2.png" alt="" /><img class="centent_3_img2" src="images/dian_1.png" alt="" />
+      <div>经典必去</div><img class="centent_3_img3" src="images/dian_1.png" alt="" /> <img class="centent_3_img4" src="images/dian_2.png" alt="" />
+     
+  </div>
+<div class="centent_3_middle">
+  <div class="centent_3_middle1">
+    <div>
+    <p>自由行</p>
+    <p>最浪漫的地方</p>
+    </div>
+    <img src="images/jd_1.png" alt="" />
+  </div>
+ <div class="centent_3_middle1 ">
+  <div>
+    <p>自由行</p>
+    <p>最浪漫的地方</p>
+    </div>
+    <img src="images/jd_2.png" alt="" />
+  </div>
+  <div class="centent_3_middle1">
+    <div>
+    <p>自由行</p>
+    <p>最浪漫的地方</p>
+    </div>
+    <img src="images/jd_3.png" alt="" />
+  </div>
+  <div class="centent_3_middle1 ">
+    <div>
+    <p>自由行</p>
+    <p>最浪漫的地方</p>
+    </div>
+    <img src="images/jd_4.png" alt="" />
+  </div>
+</div>
+<div class="centent_3_foot">
+  <span>海南岛</span>
+   <span>海南岛</span>
+    <span>海南岛营地</span>
+     <span>海南动物园</span>
+      <span>海南岛草房</span>
+</div>
+</div>
+<div class="centent_4">
+  <div class="centent_3_top">
+      <img  class="centent_3_img1" src="images/dian_2.png" alt="" /><img class="centent_3_img2" src="images/dian_1.png" alt="" />
+      <div>推荐目的地</div><img class="centent_3_img3" src="images/dian_1.png" alt="" /> <img class="centent_3_img4" src="images/dian_2.png" alt="" /> 
+  </div>
+  <div id="centent_4_1" class="wrapper">
+        <div id="centent_4_11" class="scroller">
+           <div class="centent_4_2"><img src="images/mdd_1.png"><span>天鹅湖</span><span>相约最浪漫的地方</span></div> 
+            <div class="centent_4_2"><img src="images/mdd_1.png"><span>天鹅湖</span><span>相约最浪漫的地方</span></div> 
+            <div class="centent_4_2"><img src="images/mdd_1.png"><span>天鹅湖</span><span>相约最浪漫的地方</span></div> 
+            <div class="centent_4_2"><img src="images/mdd_1.png"><span>天鹅湖</span><span>相约最浪漫的地方</span></div> 
+            <div class="centent_4_2"><img src="images/mdd_1.png"><span>天鹅湖</span><span>相约最浪漫的地方</span></div> 
+            <div class="centent_4_2"><img src="images/mdd_1.png"><span>天鹅湖</span><span>相约最浪漫的地方</span></div>     
+     </div> 
+  </div>
+  <div class="centent_5">
+    <div>猜你喜欢</div>
+    <span>攻略向导</span>
+    <br />
+  </div>
+  <div class="centent_6">
+    <div class="centent_6_top">
+      <span>63评</span>
+      <span>98%满意度</span>
+    </div>
+    <div class="centent_6_foot">
+      <div>【帆船】100公里体验两天一夜，赏月100公里体验两天一夜，赏100公里体验两天一</div>
+      <p><span>2tian一夜</span>
+      <span>明日可用</span>
+      <span>早上出发</span>
+      <span>定点集合</span>
+       </p>
+       <div class="centent_6_btn"><span>2tian一夜</span>
+      <span>暑期特惠</span>
+      <span>可用代金券</span>
+      <span>返券</span>
+       </div>
+       <span class="centent_6_span" >￥358 <span>起</span></span>
+    </div>
+  </div>
+  <div class="centent_6">
+    <div class="centent_6_top">
+      <span>63评</span>
+      <span>98%满意度</span>
+    </div>
+    <div class="centent_6_foot">
+      <div>【帆船】100公里体验两天一夜，赏月100公里体验两天一夜，赏100公里体验两天一</div>
+      <p><span>2tian一夜</span>
+      <span>明日可用</span>
+      <span>早上出发</span>
+      <span>定点集合</span>
+       </p>
+       <div class="centent_6_btn"><span>2tian一夜</span>
+      <span>暑期特惠</span>
+      <span>可用代金券</span>
+      <span>返券</span>
+       </div>
+       <span class="centent_6_span" >￥358 <span>起</span></span>
+    </div>
+  </div>
+  <div class="centent_6">
+    <div class="centent_6_top">
+      <span>63评</span>
+      <span>98%满意度</span>
+    </div>
+    <div class="centent_6_foot">
+      <div>【帆船】100公里体验两天一夜，赏月100公里体验两天一夜，赏100公里体验两天一</div>
+      <p><span>2tian一夜</span>
+      <span>明日可用</span>
+      <span>早上出发</span>
+      <span>定点集合</span>
+       </p>
+       <div class="centent_6_btn"><span>2tian一夜</span>
+      <span>暑期特惠</span>
+      <span>可用代金券</span>
+      <span>返券</span>
+       </div>
+       <span class="centent_6_span" >￥358 <span>起</span></span>
+    </div>
+  </div>
+</div>
+  <script type="text/javascript" src="js/iscroll.js"></script>
+     <script type="text/javascript" src="js/navbarscroll.js"></script>
+   <script type="text/javascript">
+     $(function(){
+    $('.wrapper').navbarscroll();
+    });
+      </script>
+</body>
+</html>

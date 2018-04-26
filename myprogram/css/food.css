@@ -1,0 +1,316 @@
+.RZFood-1{
+    height: 3.0rem;
+}
+#RzIndex_4_3 .RzIndex_4_4{
+    width: 1.50rem;
+    height: 1.51rem;
+}
+.RzFood-3 .layui-nav{
+    background: #fff;
+    border-bottom: 0.02rem solid rgba(233,233,233,1);
+    height: 0.8rem;
+    width: 80%;
+    padding: 0;
+    margin-left: 10%;
+}
+.RzFood-3 .layui-nav .layui-nav-item{
+    width: 50%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.3rem;
+    font-family: PingFangSC-Regular;
+    color: rgba(102,102,102,1);
+    text-align: center;
+}
+.RzFood-4{
+    width: 100%;
+    height: 4.85rem;
+    /*margin-top: 0.12rem;*/
+    position: relative;
+    background: rgba(255,255,255,1);
+    margin-bottom: 0.12rem;
+}
+.RzFood-4-1{
+    width: 100%;
+    height: 3.6rem;
+    position: relative;
+}
+.RzFood-4-1 img{
+    width: 100%;
+    height: 100%;
+}
+.RzFood-4-1 span:nth-child(2){
+    height: 0.3rem;
+    font-size: 0.22rem;
+    font-family: PingFang-SC-Bold;
+    color: rgba(255,255,255,1);
+    line-height: 0.3rem;
+    position: absolute;
+    left: 0.36rem;
+    bottom: 0.18rem;
+}
+.RzFood-4-1 span:nth-child(2) span{
+    margin-left: 0.22rem;
+}
+
+.RzFood-4-3{
+    height: 0.3rem;
+    font-size: 0.22rem;
+    font-family: PingFangSC-Regular;
+    color: rgba(102,102,102,1);
+    line-height: 0.3rem;
+    position: absolute;
+    left: 0.36rem;
+    bottom: 0.42rem;
+}
+.RzFood-4-4{
+    height: 0.5rem;
+    position: absolute;
+    right: 5%;
+    bottom: 0.57rem;
+}
+.RzFood-4-4 span:nth-child(1){
+    height: .5rem;
+    float: left;
+    font-family:PingFangSC-Regular;
+    color:rgba(149,149,149,1);
+    line-height: .5rem;
+    font-size: .2rem;
+}
+.RzFood-4-4 i:nth-child(2){
+    float: left;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.2rem;
+    font-family: PingFangSC-Regular;
+    color: rgba(249,118,49,1);
+    font-style: normal;
+    margin-left: .1rem;
+}
+.RzFood-4-4 b:nth-child(3){
+    float: left;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.36rem;
+    font-family: PingFang-SC-Bold;
+    color: rgba(249,118,49,1);
+    margin-left: .02rem;
+}
+.RzFood-3 .layui-nav .layui-this:after, .RzFood-3 .layui-nav-bar, .layui-nav-tree .layui-nav-itemed:after{
+    height: .03rem;
+    background-color: RGBA(59, 219, 207, 1);
+}
+.RzFood-3 .layui-nav .layui-this{
+    color: RGBA(59, 219, 207, 1) !important;
+}
+.RzFood-3 .layui-nav-bar{
+    top: 100% !important;
+}
+.RzFoodTab-2{
+    background: #E9E9E9;
+    display: none;
+}
+.RzFoodTab-2-1{
+    float: left;
+    width: 49%;
+    background:rgba(255,255,255,1);
+    position: relative;
+    height:5.2rem;
+    margin-bottom: .12rem;
+}
+.RzFoodTab-2-2{
+    padding: .1rem .1rem 0 .1rem;
+    width: 3.34rem;
+    height: 2.1rem;
+}
+.RzFoodTab-2-1:nth-of-type(odd){
+    margin-right: 2%;
+}
+.RzFoodTab-2-2 img{
+    width: 100%;
+    height: 100%;
+}
+.RzFood-4-2-1{
+    position: absolute;
+    left :.1rem;
+    bottom:1.46rem;
+    font-size: .22rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(153,153,153,1);
+    width: 3.3rem;
+    line-height: .3rem;
+}
+.RzFood-4-2-10{
+    position: absolute;
+    left :.1rem;
+	height:0.3rem;
+    bottom:1.06rem;
+    font-size: .22rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(153,153,153,1);
+    line-height: .3rem;
+}
+.RzFood-4-2-11
+{
+	display:block;
+	position: absolute;
+    left :.1rem;
+	height:0.28rem;
+	line-height:0.28rem;
+    bottom:0.74rem;
+	border-radius:0.04rem;
+	padding-left:0.08rem;
+	padding-right:0.08rem;
+	color:rgba(249,119,50,1);
+	border:0.02rem solid rgba(249,119,50,1);
+}
+.RzFood-4-2-12
+{
+	 position: absolute;
+    left :.1rem;
+	height:0.3rem;
+    bottom:0.1rem;
+    font-size: .22rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(153,153,153,1);
+    line-height: .3rem;
+}
+.RzFood-4-2-13
+{
+	width:0.95rem;
+	height:0.78rem;
+	position:absolute;
+	right:0.1rem;
+	bottom:0.1rem;
+	background:url(../images/kuaidi.png);
+	background-size:100% 100%;
+}
+.RzFood-4-2-13 span
+{
+	display:block;
+	height:0.5rem;
+	margin-top:0.28rem;
+	line-height:0.5rem;
+	text-align:center;
+	font-size:0.36rem;
+	font-family:PingFang-SC-Bold;
+	color:rgba(249,118,49,1);
+}
+.RzFood-4-2-13 span c
+{
+	font-size:0.2rem;
+	line-height:0.4rem;
+}
+.RzFood-4-2-0{
+    position: absolute;
+    left: .36rem;
+    bottom: .74rem;
+}
+.RzFood-4-2-2{
+    position: absolute;
+    right: .1rem;
+    bottom: .79rem;
+}
+.RzFood-4-2-2 span:nth-child(1){
+    float: left;
+    height: .5rem;
+    font-size: .2rem;
+    font-family:PingFangSC-Regular;
+    color:rgba(249,118,49,1);
+    line-height: .5rem;
+}
+.RzFood-4-2-2 b:nth-child(2){
+    float: left;
+    height: .5rem;
+    font-size: .36rem;
+    font-family:PingFang-SC-Bold;
+    color:rgba(249,118,49,1);
+    line-height: .5rem;
+    margin-left: .02rem;
+}
+.RzFood-4-2-2 i:nth-child(3){
+    font-style: normal;
+    height: .5rem;
+    float: left;
+    font-family:PingFangSC-Regular;
+    color:rgba(149,149,149,1);
+    line-height: .5rem;
+    margin-left: .1rem;
+}
+.RzFood-4-2{
+	display:block;
+	width:3.3rem;
+    height: .66rem;
+    font-size: .24rem;
+    color: #000;
+    line-height: .33rem;
+    position: absolute;
+    left: .1rem;
+    bottom: 2.16rem;
+}
+.RzFoodTab-2 .RzFoodTab-2-1:nth-last-child(2){
+    margin-bottom: 0;
+}
+.RzFoodTopBar {
+    height: .12rem;
+    width: 100%;
+    background-color: #fff;
+}
+/*top通栏*/
+.RzIndexTop{
+    height: .96rem;
+    width: 100%;
+    position: fixed;
+    /*background:rgba(255,255,255,1);*/
+    z-index: 100;
+}
+.RzIndexTop .icon1{
+    width: .6rem;
+    height: .6rem;
+    position: absolute;
+    left: .1rem;
+    top: .15rem;
+}
+.RzIndexTop img{
+    width: 100%;
+    height: 100%;
+}
+.RzIndexTop .icon2{
+    width: .6rem;
+    height: .6rem;
+    position: absolute;
+    right: 1.15rem;
+    top: .18rem;
+}
+.RzIndexTop .icon3{
+    width: .6rem;
+    height: .63rem;
+    position: absolute;
+    right: .1rem;
+    top: .17rem;
+}
+.RzIndexTop .icon{
+    color: #fff;
+}
+#ScoTop{
+    position: absolute;
+    top: .96rem;
+    height: 0;
+}
+#RzIndex_nab{
+    height: .98rem;
+    background: #fff;
+    overflow: hidden;
+}
+#RzIndex_nav{
+    height: .98rem;
+    line-height: .98rem;
+}
+#RzIndex_nav ul li{
+    float: left;
+    padding: 0 .34rem;
+}
+#RzIndex_nav ul li a{
+    font-size: .24rem;
+    color: #000;
+}
